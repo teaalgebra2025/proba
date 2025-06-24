@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swiper</title>
+<link rel="stylesheet" href="task-three.css" rel="https://cdn.jsdeliver.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdeliver.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+  const swiper = new Swiper ()
+</script>
+</head>
+
+
+
+<body>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+        <img src="slika-slide.jpg">
+      <div class="swiper-slide">Slide 2</div>
+       <img src="slika-slika.jpg">
+      <div class="swiper-slide">Slide 3</div>
+       <img src="slika-slideee.jpg">  
+    </div>
+
+    <div class="swiper-pagination">
+    </div> 
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-scrollbar"></div>
+
+  </div>  
+</body>
+
+<script>
+  const swiper = new Swiper(' .swiper' , {
+    direction: 'vertical',
+    loop: true,
+    pagnation: {
+      el: '.swiper-pagnation',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+      el: '-swiper-section',
+    },
+  });
+</script>
+
+</html>

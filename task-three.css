@@ -1,0 +1,37 @@
+.swiper
+{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 96px 0px 96px 64px;
+gap: 8px;
+isolation: isolate;
+
+position: relative;
+width: 1440px;
+height: 777px;
+
+background: #F3EDE5;
+}
+
+
+
+img
+{
+    width: 468px;
+    height: 585px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    object-fit: cover;
+
+}
+
+
+
+
+
+

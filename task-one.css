@@ -1,0 +1,102 @@
+img {
+    width: 720px;
+    height: 576px;
+    
+    
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 1px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.container
+{
+    writing-mode: horizontal;
+    width: 1440px;
+    height: 576px;
+    
+    top: 361px;
+    
+    padding: right 64px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    background: #E3CFCF;
+}
+
+.text-part
+{
+
+flex: 1;
+
+width: 720px;
+height: 576px;
+position: absolute;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #000000;
+
+
+}
+
+.slika
+{
+width: 720px;
+height: 576px;
+border-radius: 1px;
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #000000;
+
+}
+
+
+.h1
+{
+    
+position: absolute;
+width: 374px;
+height: 76px;
+top: 285px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 130%;
+letter-spacing: 0%;
+
+color: #000000;
+ }
+
+ @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 375px; 
+      height: 764px;
+      top: 173px;
+      padding-right: 0px 64px 0px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      background: #E3CFCF;
+    }
+  }
+
+
+
+
+
